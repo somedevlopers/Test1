@@ -1,0 +1,40 @@
+.body {
+    background-color: #aaa;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cat_info_container {
+    font-family: sans-serif;
+    width: 650px;
+    height: 100%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.cat_info_container h1 {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cat_info_container p {
+    text-align: center;
+    text-wrap: pretty;
+    max-width: 80%;
+    line-height: 20px;
+    
+}
+
+.cat_img {
+    max-width: 80%;
+}
